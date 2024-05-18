@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Center Div with Table Display</title>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            display: table;
+            width: 100%;
+        }
+        .centered-div {
+            display: table-cell;
+            vertical-align: middle;
+            text-align: center;
+        }
+        .inner-div {
+            width: 200px;
+            height: 200px;
+            background-color: lightpink;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="centered-div">
+        <div class="inner-div"></div>
+    </div>
+</body>
+</html>
